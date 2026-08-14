@@ -1,6 +1,4 @@
-Here is the updated, pastable **`README.md`** file that includes project details, task highlights, instruction to run, and the full set of observations, formatted without a file structure section.
 
-```markdown
 # DS605: Fundamentals of Machine Learning
 ## Lab Assignment 2 – Vectorized Programming with NumPy & Data Wrangling with Pandas
 
@@ -119,4 +117,3 @@ Executing the notebook cells sequentially generates all numerical outputs, expor
 
 ```
 
-```
