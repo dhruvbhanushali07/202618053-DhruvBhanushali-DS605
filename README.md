@@ -3,16 +3,17 @@
 
 **Name:** Dhruv Bhanushali  
 **Student ID:** 202618053
+
 **Target Website:** [Books to Scrape](https://books.toscrape.com)
 
 ---
 
-## 📄 Project Overview
+##  Project Overview
 This repository contains a complete end-to-end data pipeline built using Python and Scrapy. The pipeline scrapes book details across catalog pages, cleans and transforms raw fields, engineers insightful domain metrics, generates data visualizations, and reports key analytical takeaways.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 202618053-Lab-1/
 ├── books_spider.py          # Task 1: Scrapy spider for catalog and detail page extraction
@@ -31,7 +32,7 @@ This repository contains a complete end-to-end data pipeline built using Python 
 
 ---
 
-## 📊 Task 1: Data Scraping Summary
+##  Task 1: Data Scraping Summary
 
 * **Total Records Scraped:** 100 books (across 5 catalog pages)
 * **Duplicate UPC Count:** 0 (all UPCs are unique)
@@ -39,7 +40,7 @@ This repository contains a complete end-to-end data pipeline built using Python 
 
 ---
 
-## 🛠️ Task 2: Data Preprocessing & Feature Engineering
+##  Task 2: Data Preprocessing & Feature Engineering
 
 The raw data was processed using Pandas (`preprocess.py`):
 
@@ -59,7 +60,7 @@ The raw data was processed using Pandas (`preprocess.py`):
 
 ---
 
-## 📈 Task 3: Visualizations & Plots
+##  Task 3: Visualizations & Plots
 
 ### 1. Price Distribution
 
@@ -73,7 +74,7 @@ The raw data was processed using Pandas (`preprocess.py`):
 
 ---
 
-## 💡 Task 4: Key Insights & Data-Driven Observations
+##  Task 4: Key Insights & Data-Driven Observations
 
 1. **Price Range & Bimodal Distribution:**
 * Book prices range from **£10.16** (*Patience*) to **£58.11** (*The Red Tent*), with a mean price of **£34.56** and a median of **£34.78**. The price distribution displays a bimodal structure with peaks near £18 and £52.
@@ -107,7 +108,7 @@ The raw data was processed using Pandas (`preprocess.py`):
 
 ---
 
-## ⚠️ Limitations of the Dataset & Analysis
+##  Limitations of the Dataset & Analysis
 
 * **Sandbox Dataset:** `books.toscrape.com` is a mock platform with randomized prices and ratings, explaining the lack of realistic correlation between product cost and ratings.
 * **Absence of Review Text:** The target site lacks written customer reviews, limiting text analysis strictly to publisher descriptions rather than genuine customer sentiment.
@@ -115,7 +116,7 @@ The raw data was processed using Pandas (`preprocess.py`):
 
 ---
 
-## 🚀 How to Run the Pipeline
+##  How to Run the Pipeline
 
 1. **Activate Virtual Environment:**
 ```bash
@@ -141,11 +142,5 @@ python preprocess.py
 4. **Run Visualizations and Analysis (Task 3 & 4):**
 ```bash
 python analysis.py
-
-```
-
-
-
-```
 
 ```
