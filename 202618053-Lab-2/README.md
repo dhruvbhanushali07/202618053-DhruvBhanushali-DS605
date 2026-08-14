@@ -91,28 +91,23 @@ This repository contains the complete implementation for **Lab Assignment 2**, c
 
 ## 🛠️ Instructions to Run the Code
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-   cd YOUR_REPOSITORY_NAME
 
-```
 
-2. **Install required dependencies:**
+1. **Install required dependencies:**
 ```bash
 pip install numpy pandas matplotlib seaborn jupyter
 
 ```
 
 
-3. **Launch Notebook:**
+2. **Launch Notebook:**
 ```bash
 jupyter notebook Lab2_NumPy_Pandas.ipynb
 
 ```
 
 
-4. **Execution:**
+3. **Execution:**
 Executing the notebook cells sequentially generates all numerical outputs, exports the preprocessed dataset to `cleaned_titanic.csv`, and saves all visual plots into the `assets/` directory.
 
 ```
