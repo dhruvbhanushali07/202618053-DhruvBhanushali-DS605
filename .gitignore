@@ -12,3 +12,6 @@ venv/
 # Large outputs
 output/
 *.log
+
+.jpg
+.png
