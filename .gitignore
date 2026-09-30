@@ -13,5 +13,6 @@ venv/
 output/
 *.log
 
-.jpg
-.png
+#images
+*.jpg
+*.png
